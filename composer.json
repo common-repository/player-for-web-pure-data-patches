@@ -1,0 +1,25 @@
+{
+    "name": "wpackagist-plugin/player-for-web-pure-data-patches",
+    "type": "wordpress-plugin",
+    "description": "Plugin to upload, show and run Web Pure Data compatible Pure Data programs in Wordpress sites",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Marc Mauri Alloza",
+            "email": "marcmaurialloza@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "2.13.2",
+        "nyholm/noop": "1.0.0"
+    },
+    "autoload": {
+        "classmap": [
+            "inc/"
+        ]
+    },
+    "minimum-stability": "stable"
+}
